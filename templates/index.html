@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            {{title}}
+        </title>
+    </head>
+    <body>
+    
+        {%for username in usernames:%}
+        <ul>
+        {%if username=="rose":%}
+        <li>hello my love</li>
+        {%else%}
+        <li>hello {{username}}</li>
+        {%endif%}
+        </ul>
+        
+
+        {%endfor%}
+    
+    </body>
+</html>
